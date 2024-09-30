@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useRef } from "react";
 import { useForm } from "react-hook-form";
 import "../index.css";
 
@@ -13,7 +12,7 @@ export default function Form() {
     // defaultValues:{
     //   'email': '1@mail.ru'
     // }
-    mode: "onchange",
+    mode: "onChange",
   });
 
   const onSubmit = (data) => {
